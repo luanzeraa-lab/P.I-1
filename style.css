@@ -1,5 +1,4 @@
-html
-{
+html{
     background-color: #FFECCF;
 }
 
@@ -9,39 +8,34 @@ body{
 
         /*cabeçalho*/
 
-div#cabecalho
-{
+div#cabecalho{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-input#login
-{
+input#login{
     margin-left: 3%;
     width: 10%;
 }
 
 
-#logo
-{
+#logo{
     max-width: 30%;
     padding-bottom: 5%;
     margin-left: 5%;
     margin-top: 5%;
 }
 
-div#logo_pesquisa
-{
+div#logo_pesquisa{
     display: flex;
     flex-direction: column;
     justify-content: center;
        
 }
 
-div#logo_pesquisa2
-{
+div#logo_pesquisa{
     display: flex;
     margin-top: 10%;
     background-color: #ff8110;
@@ -49,20 +43,17 @@ div#logo_pesquisa2
     justify-content: center;
 }
     
-input.cab
-{
+input.cab{
     background-color: #ff8110;
     border-radius: 50px;
     
 }
 
-input#pesquisar
-{
+input#pesquis{
     border: none;
 }
 
-button#botao_pesquisar
-{
+button#botao_pesquisar{
     border-radius: 50px;
     background-image: url(gatinho.png);
     background-size: contain; /* Ajusta a imagem para cobrir todo o botão */
@@ -102,11 +93,14 @@ div#nav1{
 
         /*rodape*/
 
-div#rodape
-{
+div#rodape{
     display: flex;
     justify-content: space-evenly;
     margin-top: 2%;
+}
+
+img#logorodape{
+    max-width: 5%;
 }
 
 div#parceirosimg{
@@ -118,7 +112,27 @@ ul#contatos{
     flex-direction: column;
 }
 
+        /*PAGINAS*/
 
-#nav1 > a {
-    padding: .5rem;
+      /*CATALOGO*/
+     /*barra filtros*/
+div#containerfiltro{
+    
+}
+
+div#divfiltro{
+    margin-top: 5%;
+}
+
+nav#filtro{
+    background-color:#FFCCBC ;
+}
+
+h2#h2filtro{
+    margin-top: 20%;
+}
+
+button#btnfiltro{
+    background-color: #ff8110;
+
 }
