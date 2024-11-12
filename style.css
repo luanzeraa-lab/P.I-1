@@ -1,0 +1,124 @@
+html
+{
+    background-color: #FFECCF;
+}
+
+body{
+    background-color: #FFECCF;
+}
+
+        /*cabeçalho*/
+
+div#cabecalho
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input#login
+{
+    margin-left: 3%;
+    width: 10%;
+}
+
+
+#logo
+{
+    max-width: 30%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+div#logo_pesquisa
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       
+}
+
+div#logo_pesquisa2
+{
+    display: flex;
+    margin-top: 10%;
+    background-color: #ff8110;
+    border-radius: 50px;
+    justify-content: center;
+}
+    
+input.cab
+{
+    background-color: #ff8110;
+    border-radius: 50px;
+    
+}
+
+input#pesquisar
+{
+    border: none;
+}
+
+button#botao_pesquisar
+{
+    border-radius: 50px;
+    background-image: url(gatinho.png);
+    background-size: contain; /* Ajusta a imagem para cobrir todo o botão */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    width: 100px; /* Largura do botão */
+    height: 30px; /* Altura do botão */
+    width: 30px; 
+}
+
+
+        /*navbar*/
+
+div#nav1{
+    max-width: 70%;
+    background-color: #ff8110;
+    display: flex;
+}
+
+#nav1 > a {
+    padding: .5rem;
+}
+
+
+      /*carousel*/
+
+ div#carousel{
+    max-width: 65%;
+    margin: auto;
+ }
+
+ #imgg{
+    margin-left: 30%;
+    max-width: 100%;
+ }
+
+
+        /*rodape*/
+
+div#rodape
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+div#parceirosimg{
+    margin-top: 2%;
+}
+
+ul#contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#nav1 > a {
+    padding: .5rem;
+}
