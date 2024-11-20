@@ -34,37 +34,34 @@
         </div>
     </header>
     <main>
-            <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+            <div class="container-fluid">
+                <div id="log_logar" class="form-check col-12">
+                    <label class="form-label" for="log_email">Insira seu Email ou Cpf</label>
+                    <input class="form-control" type="text" name="id" id="log_email">
+               </div>
+                 <div id="senha" class="form-check col-12">
+                    <label class="form-label" for="log_senha">Senha</label>
+                    <input class="form-control" type="password" name="id" id="log_senha">
+                    <input class="botao_login" id="entrar" type="button" value="Entrar">
                 </div>
-                <div class="carousel-inner">
-                    <div id="imgg" class="carousel-item active">
-                        <img src="/Projeto Achamigos/gatinho.png" class="d-block w-50" alt="...">
-                    </div>
-                    <div id="imgg" class="carousel-item">
-                        <img src="/Projeto Achamigos/logocoffe.png" class="d-block w-50" alt="...">
-                    </div>
-                    <div id="imgg" class="carousel-item">
-                        <img src="/Projeto Achamigos/" class="d-block w-50" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
+
+                <p id="ou">OU</p>
+                <p id="pcadastre">Cadastre-Se</p>
+
+            <div class="container-fluid">
+                <div id="cadastre" class="form-check col-12">
+                     <label class="form-label" for="cad_email">Digite seu Email</label>
+                     <input class="form-control" type="text" name="cad_log" id="cad_email">
+                </div>
+                <div id="definir_senha" class="form-check col-12">
+                    <label class="form-label" for="cad_senha">Defina uma Senha</label>
+                    <input class="form-control" type="password" name="cad_log" id="cad_senha">
+                    <input class="botao_login" id="btn_cadastrar" type="button" value="Cadastrar">
+                </div>
+             </div>
+    
+
     </main>
     <footer>
         <div class="row justify-content-center">
@@ -78,7 +75,7 @@
             </div>
         </div>
         <div id="rodape">
-            <img id="logorodape" src="Sem título.png" alt="">
+            <img id="logorodape" src="Projeto Achamigos/LOGO_projeto.png" alt="">
             <div id="parceirosimg">
                 <img src="" alt="dsdsd">
                 <img src="" alt="dsds">

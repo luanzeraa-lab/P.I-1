@@ -33,39 +33,90 @@
             </div>
         </div>
     </header>
-    <main>
-            <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+    <main> 
+        <div class="container-fluid" id="containerfiltro">
+            <div class="row" id="divfiltro">
+                <nav class="col-md-3 col-lg-2" id="filtro" >
+                    <h1 id="h1filtro">Filtro</h1>
+                    <h2 id="h2filtro">Animais</h2>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="gato" name="animais">
+                        <label class="form-check-label" for="gato">Gato</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="cachorro" name="animais">
+                        <label class="form-check-label" for="cachorro">Cachorro</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="outros" name="animais">
+                        <label class="form-check-label" for="outros">Outros</label>
+                    </div>
+                
+                        <h2 id="h2filtro">Porte</h2>
+                
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="pequeno" name="porte">
+                        <label class="form-check-label" for="pequeno">P</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="medio" name="porte">
+                        <label class="form-check-label" for="medio">M</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="grande" name="porte">
+                        <label class="form-check-label" for="grande">G</label>
+                    </div>
+                
+                        <h2 id="h2filtro">Cidade</h2>
+                
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="sorocaba" name="cidades">
+                        <label class="form-check-label" for="sorocaba">Sorocaba</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="votorantim" name="cidades">
+                        <label class="form-check-label" for="votorantim">Votorantim</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" id="outras" name="cidades">
+                        <label class="form-check-label" for="outras">Outras</label>
+                    </div>
+                    <button class="btn" id="btnfiltro" onclick="">Procurar</button>
+                </nav>
+                
+                <div class="col-8" >aaaaaaaaa
+                    <div id="catalogo">
+                        <div id="catalogo1">
+                            <img src="cachorroteste.jfif" alt="">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt odit corrupti veniam qui possimus iusto reiciendis unde, provident, delectus praesentium harum rem ea maxime quasi itaque illum, cumque nobis placeat?</p>
+                        </div>
+                        <div id="catalogo2">
+                            <img src="cachorroteste.jfif" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error accusantium, repellat quos excepturi fugit aperiam aut facere nam ratione quasi in et totam minima quam repellendus, quidem vitae ipsam. Impedit!</p>
+                        </div>
+                        <div id="catalogo3">
+                            <img src="cachorroteste.jfif" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tenetur, iste dolorem velit earum illum placeat, voluptate natus necessitatibus libero officiis similique aperiam sint quia minus vero ratione debitis possimus.</p>
+                        </div>
+                        <div id="catalogo4">
+                            <img src="cachorroteste.jfif" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis corrupti nisi dignissimos placeat tenetur, at minima ipsa voluptatum in consectetur iusto veniam quibusdam beatae sapiente nobis, rerum atque aut incidunt.</p>
+                        </div>
+                    </div>
+
+
+
+
+
+
                 </div>
-                <div class="carousel-inner">
-                    <div id="imgg" class="carousel-item active">
-                        <img src="/Projeto Achamigos/gatinho.png" class="d-block w-50" alt="...">
-                    </div>
-                    <div id="imgg" class="carousel-item">
-                        <img src="/Projeto Achamigos/logocoffe.png" class="d-block w-50" alt="...">
-                    </div>
-                    <div id="imgg" class="carousel-item">
-                        <img src="/Projeto Achamigos/" class="d-block w-50" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                    
+
             </div>
+        </div>
+    
     </main>
+
     <footer>
         <div class="row justify-content-center">
             <div id="nav1" class="flex-row rounded-5 d-flex h-100 align-items-center justify-content-evenly">
@@ -78,7 +129,7 @@
             </div>
         </div>
         <div id="rodape">
-            <img id="logorodape" src="Sem título.png" alt="">
+            <img id="logorodape" src="Projeto Achamigos/LOGO_projeto.png" alt="">
             <div id="parceirosimg">
                 <img src="" alt="dsdsd">
                 <img src="" alt="dsds">
@@ -106,7 +157,9 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
