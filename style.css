@@ -95,6 +95,8 @@ div#nav1{
     max-width: 100%;
     align-items: center;
     margin: 5%;
+    margin-bottom: 10%;
+    height: 600px;
  }
 
  #divimg{
@@ -301,9 +303,17 @@ input#log_logar1{
 
  /*----------------------------------------------------------QUEM SOMOS----------------------------------------------------------------------------------------------------------*/
 
+div#containerquemsomos{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+}
+
 div#quemsomos{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     max-width: 80%;
     margin-left: 0%;
     margin-top: 3%;
@@ -311,10 +321,9 @@ div#quemsomos{
 
 article#art1{
     display: flex;
-    justify-items: center;
-    flex-direction: column; 
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-left: 20%;
 }
 
 
@@ -345,7 +354,7 @@ img#fotoalunos4{
 
 img#fotoalunos5{
     border-radius: 40%;
-    max-width: 30%;
+    max-width: 60%;
     border: 3px solid black;
 }
 
@@ -353,30 +362,35 @@ p#nomealuno{
     margin-bottom: 10%;
     margin-top: 5%;
     font-size: large;
+    font-weight: bold;
+    font-size: x-large;
 }
+
+
 
 /* ---------------------------------------------------------PAGINAS----------------------------------------------------------------------------------------------------------------*/
 
 /*----------------------------------------------------------PARCEIROS----------------------------------------------------------------------------------------------------------*/
 
-div#parceiros{
-   display: flex;
-   justify-content: space-evenly;
-   max-width: 80%;
-   margin-left: 5%;
-   margin-top: 3%;
+div#containerparceiros{
+    display: flex;
+    align-items: center;
 }
 
-article#art1{
-   display: flex;
-   justify-items: center;
-   flex-direction: column; 
-   align-items: center;
+div#parceiros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80%;
+    margin-left: 0%;
+    margin-top: 3%;
 }
+
 
 img#fotoparceiros{
     border-radius: 40%;
     max-width: 40%;
+    border: 3px solid black;
 }
 
 
@@ -385,6 +399,13 @@ a#nomeparceiro{
    margin-top: 5%;
    text-decoration: none;
    color: black;
+   font-weight: bold;
+}
+
+#nomeparceiro:hover{
+    transform: scale(1.4);
+    color: #ff8110;
+    text-decoration: underline;
 }
 
 
